@@ -148,18 +148,6 @@ streamlit run app.py
 
 Open the local URL printed in the terminal, usually `http://localhost:8501`.
 
-## ☁️ Streamlit Community Cloud Deployment
-
-1. Push the project to a GitHub repository.
-2. Ensure `app.py`, `requirements.txt`, and `card_transdata.csv` are available in the repository.
-3. Open [Streamlit Community Cloud](https://share.streamlit.io/).
-4. Sign in with GitHub and create a new app.
-5. Select the repository and `main` branch.
-6. Set the main file path to `app.py`.
-7. Deploy the app.
-
-**Dataset size note:** GitHub rejects ordinary files larger than 100 MB. Check the CSV file size before committing. If it exceeds GitHub's file limit, use Git LFS or external object storage and adapt the app's data-loading path.
-
 ## ⚠️ Limitations
 
 - Model results depend on the supplied dataset and selected stratified sample.
