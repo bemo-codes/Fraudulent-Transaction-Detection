@@ -102,7 +102,7 @@ Fraudulent-Transaction-Detection/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/bemo-codes/Fraudulent-Transaction-Detection
 cd Fraudulent-Transaction-Detection
 ```
 
